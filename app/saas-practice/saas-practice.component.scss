@@ -1,0 +1,15 @@
+@import "sample";
+
+h1{
+  color: #af80ed;
+}
+p{
+  color: #de5e85;
+}
+.header{
+  color :$primary-color;
+  font-family: $font-stack;
+}
+.aithmatic {
+  font-size: 5px*4;
+}

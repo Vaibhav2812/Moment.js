@@ -1,0 +1,11 @@
+<div class="container">
+  <ng-template #defaultTabButtons>
+    <button class="tab-button" (click)="login()">Login</button>
+    <button class="tab-button" (click)="signUp()">Login</button>
+  </ng-template>
+</div>
+<ng-container
+        *ngTemplateOutlet="headerTemplate ? headerTemplate: defaultTabButtons"
+>
+
+</ng-container>
